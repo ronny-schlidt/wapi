@@ -34,7 +34,6 @@ extern int wGetParsedEventsTimed(wTV *tv, int maxevents, int timeout);
 extern int wSetTokenFloat(wtoken tokenval, float fval);
 extern int wSetTokenInt(wtoken tokenval, int ival);
 extern int wSetTokenString(wtoken tokenval, char* str);
-
 //
 extern int wSetNode(char *str);
 extern int wSetNodeFromTVArray(wTV *array, int nTV);

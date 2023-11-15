@@ -25,7 +25,4 @@ int main() {
 }
 
 // gcc -O3 -Wall -I:C:\Users\rschl\OneDrive\Dokumente\GitHub\wapi -c -o wtest.o "wtest.c" 
-// gcc  -LC:\Users\rschl\OneDrive\Dokumente\GitHub\wapi\Windows -o wtest.exe wtest.o -lwapi -lws2_32 
-// gcc "-LC:C:\Users\rschl\OneDrive\Dokumente\GitHub\wapi\Windows" -o wtest.exe wtest.o -lwapi -lws2_32
-
-// gcc  -o wtest.exe wtest.o C:\Users\Ronny\Documents\GitHub\wapi\Windows\libwapi.a -lws2_32
+// gcc  -LC:\Users\rschl\OneDrive\Dokumente\GitHub\wapi\Windows -o wtest.exe wtest.o -lwapi -lws2_32

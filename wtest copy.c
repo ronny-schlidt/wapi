@@ -3,13 +3,15 @@
 #include <sys/time.h>
 #include "wapi.h"
 #include "wext.h"
+#include <windows.h>
+#include <stdio.h>
 #include "../wapi/wapi.h"
 #include "../wapi/wext.h"
 
-int main() {
-     
-     printf("Starting Script...\n");
+ 
 
+int main() {
+     printf("Starting Script...\n");
      if (wOpen("192.167.0.100") != WSUCCESS) {
           printf("Error wOpen\n");
           return -1;
